@@ -167,4 +167,8 @@ The notebook generates:
     ```bash
         pip install scikit-fuzzy numpy scipy networkx matplotlib scikit-learn pandas
 
+4. **Verify Jupyter Notebook**:
 
+    ```bash
+        pip install jupyter
+        jupyter notebook
