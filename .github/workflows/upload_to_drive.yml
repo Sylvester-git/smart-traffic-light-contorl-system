@@ -1,0 +1,23 @@
+name: Sync to Google Drive
+
+on:
+  push:
+    branches:
+      - master  # Trigger on push to main branch
+
+jobs:
+  upload-to-drive:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Upload folder to Google Drive
+      - name: Upload folder to Google Drive
+        uses: Jodebu/upload-to-drive@master
+        with:
+          target: .  # Upload entire repo; change to 'docs' for a specific folder
+          credentials: ${{ secrets.GDRIVE_CREDENTIALS }}  # Service account JSON
+          folder: ${{ secrets.GDRIVE_FOLDER_ID }}  # Drive folder ID
+          overwrite: "true"  # Overwrite existing files
