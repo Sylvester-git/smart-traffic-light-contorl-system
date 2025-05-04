@@ -1,0 +1,14 @@
+Average Waiting Time (Test Set): 15.29 seconds
+Number of Training Samples: 8000
+Number of Test Samples: 2000
+Sample Test Data (Vehicle Density, Waiting Time, Flow Rate, Queue Length, Emergency Vehicle, Opposing Density, Predicted Green Duration):
+80, 43, 47, 27, 0, 51, 26.79
+40, 18, 26, 6, 0, 33, 20.98
+45, 30, 21, 8, 0, 26, 21.86
+37, 24, 32, 13, 0, 64, 31.12
+54, 12, 20, 15, 0, 58, 30.11
+41, 36, 22, 5, 0, 66, 22.72
+68, 39, 36, 14, 0, 58, 35.96
+8, 4, 16, 4, 0, 0, 15.98
+29, 31, 24, 8, 0, 50, 10.00
+51, 10, 24, 17, 0, 43, 10.00
