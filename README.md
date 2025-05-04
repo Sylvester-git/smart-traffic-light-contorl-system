@@ -160,4 +160,11 @@ The notebook generates:
    git clone <repository_url>
    cd <repository_directory>
 
+2. **Install Python 3.12**: Use a Python 3.12 environment (e.g., via pyenv or conda).
+
+3. **Install Dependencies**:
+
+    ```bash
+        pip install scikit-fuzzy numpy scipy networkx matplotlib scikit-learn pandas
+
 
